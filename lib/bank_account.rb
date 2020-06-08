@@ -23,10 +23,9 @@ class BankAccount
     self.status=="open"&& self.balance>1000
   end
       
-  def close_
+  def close_account 
+    self.status="closed"
+  end
   
   
-  
-  
-
 end
