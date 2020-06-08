@@ -15,6 +15,9 @@ class BankAccount
     @balance+=amt
   end
   
+  def display_balance
+    puts
+  
   
   
 
