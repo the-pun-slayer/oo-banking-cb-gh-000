@@ -19,6 +19,9 @@ class BankAccount
     puts "Your balance is $#{self.balance}."
   end
   
+  def valid?
+    if self.status=="open"&& self.balance>1000
+      
   
   
   
